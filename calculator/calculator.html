@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="../style.css">
+    <link rel = "stylesheet" href="calculator.css">
+    <title> Claculator </title>
+</head>
+<body id="body-pd">
+    <nav id="up-menu">
+        <ul>
+            <li><input class="search"></li>
+            <li><a class=link href="https://physicsmasterpig.github.io/blog/">Blog</a></li>
+            <li><a class=link href="https://physicsmasterpig.github.io/homepage/">Page</a></li>
+            <li><a class=link href="1">Third</a></li>
+        </ul>
+    </nav>
+
+    <div class="l-sidebarbar" id="sidebarbar">
+        <nav class="sidebar">
+            <div>
+                <div class="sidebar_brand">
+                    <ion-icon name="menu-outline" class="sidebar_toggle" id="sidebar-toggle"></ion-icon>
+                    <a href="#" class="sidebar_logo">PMP</a>
+                </div>
+                <div class="sidebar_list">
+                    <a href="#" class="sidebar_link active">
+                        <ion-icon name="home-outline" class="sidebar_icon"></ion-icon>
+                        <span class="sidebar_name">Home</span>
+                    </a>
+                    <div href="#" class="sidebar_link collapse">
+                        <ion-icon name="game-controller-outline" class="sidebar_icon"></ion-icon>
+                        <span class="sidebar_name">Mini Games</span>
+
+                        <ion-icon name="chevron-down-outline" class="collapse_link"></ion-icon>
+
+                        <ul class="collapse_menu">
+                            <a href="#" class="collapse_sublink">Data</a>
+                            <a href="#" class="collapse_sublink">Group</a>
+                            <a href="#" class="collapse_sublink">Members</a>
+                        </ul>
+                    </div>
+
+                    <div href="#" class="sidebar_link collapse">
+                        <ion-icon name="folder-outline" class="sidebar_icon"></ion-icon>
+                        <span class="sidebar_name">Posts</span>
+
+                        <ion-icon name="chevron-down-outline" class="collapse_link"></ion-icon>
+
+                        <ul class="collapse_menu">
+                            <a href="calculator/calculator.html" class="collapse_sublink">Tools</a>
+                            <a href="#" class="collapse_sublink">Group</a>
+                            <a href="#" class="collapse_sublink">Members</a>
+                        </ul>
+                    </div>
+                    <a href="#" class="sidebar_link">
+                        <ion-icon name="settings-outline" class="sidebar_icon"></ion-icon>
+                        <span class="sidebar_name">Settings</span>
+                    </a>
+                    <a href="#" class="sidebar_link">
+                        <ion-icon name="people-outline" class="sidebar_icon"></ion-icon>
+                        <span class="sidebar_name">Group Projects</span>
+                    </a>
+                </div>
+                <a href="#" class="sidebar_link">
+                    <ion-icon name="log-out-outline" class="sidebar_icon"></ion-icon>
+                    <span class="sidebar_name">Log out</span>
+                </a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- IONICONS -->
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <!-- JS -->
+    <script src="sidebar.js"></script>
+    <div class="container">
+    <div class="calculator">
+    <div class="wrapper">
+        <section class = "screen">
+            0
+        </section>
+        <section class = "calc-buttons">
+            <div class="calc-button-row">
+                <button class="calc-button double">
+                    C
+                </button>
+                <button class="calc-button">
+                    &larr;
+                </button>
+                <button class="calc-button">
+                    &divide;
+                </button>
+            </div>
+
+            <div class="calc-button-row">
+                <button class="calc-button">
+                    7
+                </button>
+                <button class="calc-button">
+                    8
+                </button>
+                <button class="calc-button">
+                    9
+                </button>
+                <button class="calc-button">
+                    &times;
+                </button>
+            </div>
+
+            <div class="calc-button-row">
+                <button class="calc-button">
+                    4
+                </button>
+                <button class="calc-button">
+                    5
+                </button>
+                <button class="calc-button">
+                    6
+                </button>
+                <button class="calc-button">
+                    &minus;
+                </button>
+            </div>
+
+            <div class="calc-button-row">
+                <button class="calc-button">
+                    1
+                </button>
+                <button class="calc-button">
+                    2
+                </button>
+                <button class="calc-button">
+                    3
+                </button>
+                <button class="calc-button">
+                    &plus;
+                </button>
+            </div>
+
+            <div class="calc-button-row">
+                <button class="calc-button triple">
+                    0
+                </button>
+                <button class="calc-button">
+                    &equals;
+                </button>
+            </div>
+
+        </section>
+        
+    </div>
+
+    <script src = "script.js"></script>
+</body>
+</html>
